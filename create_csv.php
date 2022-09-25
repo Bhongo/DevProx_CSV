@@ -45,11 +45,11 @@ if(isset($_POST["submit"])){
         $birth_date= date('d-m-Y', strtotime($birth_date. ' + 1 year'));
         $age =  ageCalculator($birth_date);
 
-        $randChars = generate_random_letters(6);
-        $randChars2 = generate_random_letters(7);
+        # $randChars = generate_random_letters(6);
+        # $randChars2 = generate_random_letters(7);
 
-        $final_array[] = array_unique([$newFirstName."_".$randChars, $newLastName."_".$randChars2, $initals, $age, $birth_date]);
-        # $final_array[] = array_unique([$newFirstName, $newLastName, $initals, $age, $birth_date]);
+        # $final_array[] = array_unique([$newFirstName."_".$randChars, $newLastName."_".$randChars2, $initals, $age, $birth_date]);
+        $final_array[] = array_unique([$newFirstName, $newLastName, $initals, $age, $birth_date]);
     
     }  
     downloadCSV_Output($final_array);  
