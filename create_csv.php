@@ -12,7 +12,7 @@
 
 include_once("includes/functions.php");
 
-$firstNameCollection = array("Harry","Bruce","Carolyn","Lukhanyo","Randy","Siya","Lois","Jesse","Ernest","Lood",
+$firstNameCollection = array("Makanda","Bruce","Carolyn","Lukhanyo","Randy","Siya","Lois","Jesse","Ernest","Lood",
                         "Henry","Makazole","Frank","Shirley", "Vuyo", "Viwe", "Bhongo", "Lee", "Ninja", "Neo");
 
 $lastNameCollection = array("Nxele","Xulu","Debra","Zembe","Gerald","Kolisi","Raymond","Carter","Selepe","Fassi",
