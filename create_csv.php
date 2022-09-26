@@ -2,7 +2,7 @@
 /**
  * Developer: Bhongolethu Sinxo
  * Date Created: 2022-09-09
- * Last Modified: 2022-09-25
+ * Last Modified: 2022-09-26
  * Project: DevProx CSV Challenge
  * Description: Array Data for CSV
  * 
@@ -48,7 +48,7 @@ if(isset($_POST["submit"])){
         //$randChars = generate_random_letters(6);
         //$randChars2 = generate_random_letters(7);
 
-        #$final_array[] = array_unique([$newFirstName."_".$randChars, $newLastName."_".$randChars2, $initals, $age, $birth_date]);
+        # $final_array[] = array_unique([$newFirstName."_".$randChars, $newLastName."_".$randChars2, $initals, $age, $birth_date]);
         $final_array[] = array_unique([$newFirstName, $newLastName, $initals, $age, $birth_date]);
     
     }  
